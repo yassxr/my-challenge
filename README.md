@@ -14,5 +14,7 @@
 
    ```bash
    npm start
+
+4. Open on your browser: http://localhost:3000
    
 Note: I set the gravity range from 0-10
