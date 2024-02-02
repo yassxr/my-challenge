@@ -1,38 +1,76 @@
-.App {
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  background-image: url(BEiEJba.jpeg);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.info {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: '#333';
+  font-weight: 'bold';
+  font-size: medium;
+}
+
+.title {
+  font-family: 'Space Mono', monospace;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.check {
+  margin-right: 10px;
+}
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.checkbox-label {
+  display: 'flex'; 
+  align-content: center;
+  justify-content: 'center';
+  margin-bottom: 20px;
+  font-family: 'Orbitron' ;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.checkbox-label input {
+  margin-right: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.range-label {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  align-items: center; /* Ajout de cette ligne pour centrer verticalement le curseur */
+  margin-bottom: 10px;
+}
+
+.select-dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.dropdown-button {
+  background-color: #acb9c6;
   color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-button:hover, .dropdown-button:focus {
+  background-color: #acb9c6;
 }
