@@ -15,3 +15,4 @@
    ```bash
    npm start
    
+Note: I set the gravity range from 0-10
